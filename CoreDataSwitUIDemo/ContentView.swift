@@ -25,7 +25,7 @@ struct ContentView: View {
                 
                 Button {
                     guard !textFieldText.isEmpty else {return}
-                    vm.addSubject(text: textFieldText)
+                    vm.addSubject(text: "📕" + textFieldText)
                     textFieldText = ""
                 } label: {
                     Text("Save")
