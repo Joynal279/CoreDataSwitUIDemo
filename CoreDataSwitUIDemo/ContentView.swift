@@ -15,7 +15,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Add subject which you like!")
                 TextField("Add subject here", text: $textFieldText)
                     .font(.headline)
                     .padding(.leading)
